@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 b1b11b11b1b1b11b1b1b
+bbbbbbbbb
+=======
+b3b3b33b3b3b33b3b
+>>>>>>> b3
