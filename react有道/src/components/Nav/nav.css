@@ -1,0 +1,80 @@
+.nav1 .lmleft ul{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+ 
+}
+.nav1{
+  padding-top:0.4rem; 
+}
+.bsl{
+  height: 100vh;
+  overflow: hidden;
+}
+.lmleft ul li{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: #333;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.5rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+.lmleft{
+  width: 24%;
+  float: left;
+  padding: 0.05rem;
+}
+.lmright{
+  width: 100%;
+  float: left;
+  padding: 0.05rem;
+}
+ul{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.nav1 .active{
+  color: #f00;
+}
+.leumus{
+  padding: 0.05rem;
+}
+.leimua{
+  color: #333;
+  display: block;
+}
+.leimuadiv{
+  color: #666;
+  font-size: 0.14rem;
+  line-height: 0.4rem;
+}
+.goodsleimu{
+  background-color: #fff;
+  padding: 0.05rem;
+  display: flex;
+  flex-flow: wrap row;
+}
+.goodsleimu a{
+  width: 100%;
+  display: inline-block;
+  padding: 0.05rem;
+  text-align: center;
+}
+.goodsleimu>div{
+  width: 33%;
+}
+.imgss div{
+  font-size: 0.12rem;
+  color: #666;
+  line-height: 0.12rem;
+  height: 0.12rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

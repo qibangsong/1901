@@ -1,0 +1,63 @@
+.iptimg{
+    width: 60%;
+    margin: 0.2rem 0 0.2rem 20%;
+}
+.ipts{
+    width: 80%;
+    margin: 0 auto;
+}
+.iptt{
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.iptt>div{
+    margin: 0.2rem 0;
+    border: 1px solid #ccc;
+    height: 0.6rem;
+    text-align: center
+} 
+.iptt input{
+    border: none;
+    width: 80%;
+    height: 100%;
+    vertical-align: middle;
+    outline: none;
+}
+.iptt .icon4{
+  
+    font-size: 0.25rem;
+    vertical-align: middle;
+}
+.iptt label{
+    width: 20%;
+    padding-right: 0.1rem;
+}
+.iptt .denglu{
+    border: none
+}
+.denglu button{
+    width: 100%;
+    background: #c00;
+    padding: 0.1rem 0;
+    border: none;
+    color: #fff;
+}
+.psd{
+    float: left;
+}
+.newuser{
+    float: right;
+    color: #0277BD;
+}
+.psdp{
+    margin: 0.2rem 0;
+    overflow: hidden;
+}
+.iptt .btom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100vh;
+    background: #000;
+    height: 0.3rem;
+}

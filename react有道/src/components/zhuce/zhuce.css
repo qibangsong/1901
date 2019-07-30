@@ -1,0 +1,88 @@
+.ipt0{
+    width: 94%;
+    margin: 0 3%;
+    height: 0.5rem;
+    border-bottom:1px solid #ccc; 
+}
+.ipt0>span{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    color: #000;
+}
+.ipt0>input{
+    width: 75%;
+    height: 100%;
+    outline: none;
+    border: none
+}
+.form1{
+    margin:0.4rem 0 0.2rem 0;
+}
+.ipt0 .lab1{
+    height: 100%;
+    line-height: 0.5rem;
+    margin-right: 0.1rem;
+}
+.ipt0 .lab1 input{
+    margin-right: 0.1rem;
+    vertical-align: middle
+}
+.ipt0 .ant-calendar-picker{
+    width: 75%;
+    display: inline-block;
+    height: 0.5rem;
+    
+}
+.ipt0 .ant-calendar-picker input{
+    height: 0.5rem;
+    outline: none;
+}
+.ipt0 .tu1{
+    width: 45%;
+}
+.ipt0 img{
+    width: 30%;
+    height: 0.45rem;
+}
+.ipt0 button{
+    width: 30%;
+    padding: 0.05rem 0;
+    background: #c00;
+    color: #fff;
+    border: none;
+}
+.yy{
+    color: #0277BD;
+    vertical-align: middle;
+}
+.have{
+    
+    float: right;
+}
+.yes{
+    width: 94%;
+    margin:0 3%;
+}
+.yes input{
+    vertical-align: middle;
+    margin-right:0.05rem; 
+}
+.now{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.4rem;
+}
+.now button{
+    width: 100%;
+    height: 100%;
+    background: #c00;
+    color: #fff;
+    border: none;
+}
+.ant-message-info{
+    background:rgba(100,100,100,0.2);
+    padding: 0.05rem 0;
+}

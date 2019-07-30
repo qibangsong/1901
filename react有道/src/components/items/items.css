@@ -1,0 +1,286 @@
+.item-name{
+    font-size: 0.16rem;
+    line-height: 0.2rem;
+    word-break: break-all;
+    color: #333;
+    margin: 0 0 0.05rem;
+}
+.pri{
+    font-size: 0.22rem;
+    color: #f00;
+}
+.none{
+    display: none;
+}
+.pri{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+}
+.itemprice{
+    font-size: 0.14rem;
+    color: #666;
+    text-decoration: line-through;
+}
+.con-pri{
+    padding: 10px;
+}
+.note{
+    display: inline-block;
+    float: right;
+}
+.ling{
+    overflow: hidden;
+}
+.juan{
+    width: 100%;
+    margin-top:0.2rem;
+    margin-bottom:0.2rem; 
+    padding: 0 0.1rem; 
+}
+.clear{
+    overflow: hidden;
+}
+.juan .ricon{
+    float: right;
+    font-size: 0.16rem;
+}
+.juan p{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top:0.2rem; 
+}
+.la{
+    display: inline-block;
+    width: 0.6rem;
+}
+.juan .r1{
+    font-size: 0.20rem
+}
+.juan .chose{
+    margin-top:0.2rem; 
+}
+.elsepag{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background:rgba(100,100,100,0.8);
+    z-index: 10;
+}
+.addcar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+    background: #fff;
+}
+.xxx{
+    position: absolute;
+    right: 0.10rem;
+    top: 0.10rem;
+}
+.close1{
+    font-size: 0.2rem;
+}
+.toop{
+    display: flex;
+    padding: 0.1rem;
+    height: 25%;
+}
+
+.toop p{
+    font-size: 0.14rem;
+    color: #999;
+    margin-left:0.10rem; 
+}
+.toop p:first-child{
+    color: #c00;
+    font-size: 0.22rem
+}
+.toop>img{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-top:0.1rem; 
+}
+.colorsize{
+    padding: 0 0.1rem;
+    height: 75%;
+}
+.colorsize>label{
+    height: 10%;
+}
+.colorsize ul:first-child{
+    height: 20%;
+}
+.colorsize ul:last-child{
+    height: 35%;
+}
+
+.colorsize ul{
+    display: flex;
+    list-style: none;
+    width: 80%;
+    flex-flow: wrap row;
+}
+.colorsize li{
+    width: 22.5%;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin:1% 1%;
+    color: #333;
+}
+.pppp{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 8%;
+    height: 8%;
+}
+.pppp button{
+    border: 1px solid #ccc;
+    padding: 0 0.05rem;
+    outline: none;
+    background: #fff;
+    margin: 0 0.1rem;
+    position: relative;
+    left: 0;
+}
+.pppp>label{
+    width: 68%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left:2%; 
+}
+.pppp>div{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 70%;
+    bottom: 0
+}
+.pppp>div>p{
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translate(0,-50%)
+}
+.sure{
+    width: 100%;
+    height: 8%;
+    margin-top:0.1rem; 
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+.sure button{
+    width:100%;
+    border: none;
+    background: #f00;
+    padding:0.15rem 0;
+    color: #fff;
+}
+.bleft .icon3{
+    font-size: 0.22rem;
+    /* width: 0.20rem;
+    height: 0.20rem; */
+}
+.btm{
+    width: 100%;
+    display: flex;
+    height: 0.54rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    background: #fff;
+}
+.bleft{
+    width: 40%;
+    display: flex;
+    height: 100%;
+}
+.bleft>div{
+    width: 50%;
+    text-align: center;
+    height: 100%;
+}
+.bright{
+    width: 60%;
+    display: flex;
+    height: 100%;
+}
+.addshopcar{
+    width: 55%;
+    height: 100%;
+}
+.addshopcar button{
+    width: 100%;
+    background: #fa0;
+    color: #fff;
+    border: none;
+    height: 100%;
+}
+.buygoods{
+    width: 45%;
+    height: 100%;
+}
+.buygoods button{
+    width: 100%;
+    border: none;
+    background: #c00;
+    color: #fff;
+    height: 100%;
+}
+.actch{
+    background: #f00;
+}
+.scroll{
+    position: fixed;
+    left: 0;
+    top: 0.4rem;
+    bottom: 0.54rem;
+    right: 0;
+}
+/* .upshow{
+    display: none
+} */
+.wait p{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.wait3 div,.wait4 div,.wait5 div,.wait6 div{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.waitshow{
+    display: none;
+}
+.waitshow1{
+    display: block;
+}
+.wait1{
+    display: none;
+}
+.wait3{
+    display: block;
+}
+.wait4{
+    display: none;
+}
+.wait5{
+    display: block;
+}
+.wait6{
+    display: none;
+}

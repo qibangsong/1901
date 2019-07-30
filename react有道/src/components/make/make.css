@@ -1,0 +1,13 @@
+.server{
+    position: absolute;
+    top:0.4rem;
+}
+.server1{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap row;
+}
+.server1 a{
+    width: 50%;
+    display: inline-block;
+}
